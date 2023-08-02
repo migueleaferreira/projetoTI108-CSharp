@@ -107,7 +107,7 @@ namespace PadariaCarmel
             this.btnSair.Name = "btnSair";
             this.btnSair.Size = new System.Drawing.Size(97, 42);
             this.btnSair.TabIndex = 3;
-            this.btnSair.Text = "Sai&r";
+            this.btnSair.Text = " ";
             this.btnSair.UseVisualStyleBackColor = true;
             this.btnSair.Click += new System.EventHandler(this.btnSair_Click);
             // 
