@@ -44,9 +44,15 @@ namespace PadariaCarmel
                 num1 = Convert.ToDouble(textNum1.Text);
                 num2 = Convert.ToDouble(texNum2.Text);
 
-                if(rdbSoma.Checked || rdbMultiplicacao.Checked || rdbDivisao.Checked || rdbSubtracao.Checked)
+                if (rdbSoma.Checked || rdbMultiplicacao.Checked || rdbDivisao.Checked || rdbSubtracao.Checked)
                 {
-                    MessageBox.Show("é isso");
+
+                }
+                else
+                {
+                    MessageBox.Show("Favor selecionar uma operação",
+                        "mesagem do sistema," +
+                        "mesagem");
                 }
 
                 if (rdbSoma.Checked)

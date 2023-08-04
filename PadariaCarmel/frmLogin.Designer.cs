@@ -78,6 +78,7 @@ namespace PadariaCarmel
             this.txtUsuario.Name = "txtUsuario";
             this.txtUsuario.Size = new System.Drawing.Size(217, 26);
             this.txtUsuario.TabIndex = 0;
+            this.txtUsuario.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtUsuario_KeyDown);
             // 
             // txtSenha
             // 
@@ -88,6 +89,7 @@ namespace PadariaCarmel
             this.txtSenha.PasswordChar = 'l';
             this.txtSenha.Size = new System.Drawing.Size(217, 25);
             this.txtSenha.TabIndex = 1;
+            this.txtSenha.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtSenha_KeyDown);
             // 
             // btnEntrar
             // 
@@ -107,7 +109,7 @@ namespace PadariaCarmel
             this.btnSair.Name = "btnSair";
             this.btnSair.Size = new System.Drawing.Size(97, 42);
             this.btnSair.TabIndex = 3;
-            this.btnSair.Text = " ";
+            this.btnSair.Text = " Sai&r";
             this.btnSair.UseVisualStyleBackColor = true;
             this.btnSair.Click += new System.EventHandler(this.btnSair_Click);
             // 
